@@ -1,0 +1,12 @@
+@import "framework";
+
+.title{
+    @include title;
+    font-size: 24px;
+}
+
+@include media-min($rwd-pc-hd){
+    .title{
+        font-size: 36px;
+    }
+}

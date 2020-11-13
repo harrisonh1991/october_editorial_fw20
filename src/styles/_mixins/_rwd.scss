@@ -17,3 +17,15 @@ $rwd-pc-4k: 3840px;
         @content;
     }
 }
+
+@mixin hide-desktop {
+    @include media-min($rwd-pc-hd){
+        display: none;
+    }
+}
+
+@mixin hide-mobile {
+    @include media-max($rwd-pc-hd){
+        display: none;
+    }
+}

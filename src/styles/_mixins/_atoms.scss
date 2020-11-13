@@ -1,0 +1,9 @@
+@mixin title {
+    margin: 0;
+    font-weight: normal;
+}
+
+@mixin image {
+    display: block;
+    width: 100%;
+}
