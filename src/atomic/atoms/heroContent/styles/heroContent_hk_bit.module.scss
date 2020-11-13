@@ -1,0 +1,11 @@
+.content{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+@include media-min($rwd-pc-hd){
+    .content{
+        font-size: 18px;
+        margin-top: 50px;
+    }        
+}

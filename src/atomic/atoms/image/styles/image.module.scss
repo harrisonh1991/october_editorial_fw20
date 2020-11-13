@@ -1,0 +1,14 @@
+.image{
+    @include image;
+    &__{
+        &desktop{
+            @include image;
+            @include hide-mobile;
+        }
+    
+        &mobile{
+            @include image;
+            @include hide-desktop;
+        }
+    }
+}
